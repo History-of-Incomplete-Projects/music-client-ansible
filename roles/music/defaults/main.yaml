@@ -1,0 +1,3 @@
+---
+dps_git_branch: "master"
+dps_home: ~/.ansible/lib

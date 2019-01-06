@@ -1,0 +1,8 @@
+---
+  - name: Get Aptitude and Pip Installed
+    hosts: target_server
+    become: false
+
+    roles:
+      - prerequisite
+      - music

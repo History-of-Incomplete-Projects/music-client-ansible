@@ -1,0 +1,8 @@
+---
+  - name: mode is install
+    import_tasks: install.yaml
+    when: mode == "install"
+
+  - name: mode is uninstall
+    import_tasks: uninstall.yaml
+    when: mode == "uninstall"

@@ -1,0 +1,6 @@
+---
+  - name: unInstall youtube-dl with pip
+    pip:
+      name: youtube-dl
+      state: absent
+    become: yes
