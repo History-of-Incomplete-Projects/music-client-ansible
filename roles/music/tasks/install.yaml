@@ -1,6 +1,0 @@
----
-  - name: Install youtube-dl with pip
-    pip:
-      name: youtube-dl
-      state: latest
-    become: yes

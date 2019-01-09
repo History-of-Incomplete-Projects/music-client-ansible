@@ -1,0 +1,5 @@
+---
+  - name: Ensure that module is removed
+    file:
+      path: "{{ ansible_roles_home }}/{{ ansible_module_name }}"
+      state: absent

@@ -1,0 +1,3 @@
+---
+playlist_watcher_mod_git_branch: "master"
+ansible_module_name: playlist-watcher-ansible-module

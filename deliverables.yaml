@@ -5,4 +5,5 @@
 
     roles:
       - prerequisite
-      - music
+      - playlist-watcher
+      - playlist-watcher-ansible
