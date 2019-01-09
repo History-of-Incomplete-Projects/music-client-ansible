@@ -1,5 +1,6 @@
 ---
   - name: Install playlist watcher common library from GitHub with PIP
     pip:
-      name: git+ssh://git@github.com/independent-projects/playlist-watcher.git@{{ playlist_watcher_lib_git_branch }}
+      name: git+https://github.com/independent-projects/playlist-watcher.git@{{ playlist_watcher_lib_git_branch }}
+      extra_args: --user -U
       state: latest
