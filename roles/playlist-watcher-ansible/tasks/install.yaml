@@ -1,8 +1,8 @@
 ---
   - name: Checkout playlist watcher common library from GitHub
     git:
-      repo: git@github.com:independent-projects/{{ ansible_module_name }}.git
+      repo: https://github.com/independent-projects/{{ ansible_module_name }}.git
       version: "{{ playlist_watcher_mod_git_branch }}"
       dest: "{{ ansible_roles_home }}/{{ ansible_module_name }}"
-      accept_hostkey: yes
       force: yes
+    become: yes

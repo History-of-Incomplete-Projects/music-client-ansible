@@ -3,3 +3,4 @@
     file:
       path: "{{ ansible_roles_home }}/{{ ansible_module_name }}"
       state: absent
+    become: yes

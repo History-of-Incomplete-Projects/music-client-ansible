@@ -1,3 +1,4 @@
 ---
 playlist_watcher_mod_git_branch: "master"
 ansible_module_name: playlist-watcher-ansible-module
+ansible_roles_home: /home/alanjm/.ansible/lib

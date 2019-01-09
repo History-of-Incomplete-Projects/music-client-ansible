@@ -4,6 +4,3 @@
 [target_server]
 192.168.50.189
 
-# This is the directory that all your custom ansible roles live in.
-# This variable is used by the generic ansible-module-config role from galaxy.
-ansible_roles_home=/home/alanjm/.ansible/lib

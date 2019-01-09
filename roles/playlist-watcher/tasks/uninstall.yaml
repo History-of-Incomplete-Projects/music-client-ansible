@@ -1,5 +1,5 @@
 ---
   - name: unInstall playlist watcher common library from GitHub with PIP
     pip:
-      name: git+git@github.com:independent-projects/playlist-watcher.git@{{ playlist_watcher_lib_git_branch }}
+      name: git+ssh://git@github.com/independent-projects/playlist-watcher.git@{{ playlist_watcher_lib_git_branch }}
       state: latest
